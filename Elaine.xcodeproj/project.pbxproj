@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FB8DE2029124C480093AFB5 /* ElaineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */; };
+		8FB8DE2229124C480093AFB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2129124C480093AFB5 /* ContentView.swift */; };
+		8FB8DE2429124C4A0093AFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2329124C4A0093AFB5 /* Assets.xcassets */; };
+		8FB8DE2729124C4A0093AFB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2629124C4A0093AFB5 /* Preview Assets.xcassets */; };
+		8FB8DE2929124C4A0093AFB5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2829124C4A0093AFB5 /* Persistence.swift */; };
+		8FB8DE2C29124C4A0093AFB5 /* Elaine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2A29124C4A0093AFB5 /* Elaine.xcdatamodeld */; };
+		8FB8DE3729124C4A0093AFB5 /* ElaineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE3629124C4A0093AFB5 /* ElaineTests.swift */; };
+		8FB8DE4129124C4A0093AFB5 /* ElaineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE4029124C4A0093AFB5 /* ElaineUITests.swift */; };
+		8FB8DE4329124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FB8DE3329124C4A0093AFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FB8DE1429124C480093AFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB8DE1B29124C480093AFB5;
+			remoteInfo = Elaine;
+		};
+		8FB8DE3D29124C4A0093AFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FB8DE1429124C480093AFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB8DE1B29124C480093AFB5;
+			remoteInfo = Elaine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FB8DE1C29124C480093AFB5 /* Elaine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elaine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineApp.swift; sourceTree = "<group>"; };
+		8FB8DE2129124C480093AFB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FB8DE2329124C4A0093AFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FB8DE2629124C4A0093AFB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FB8DE2829124C4A0093AFB5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8FB8DE2B29124C4A0093AFB5 /* Elaine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Elaine.xcdatamodel; sourceTree = "<group>"; };
+		8FB8DE2D29124C4A0093AFB5 /* Elaine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Elaine.entitlements; sourceTree = "<group>"; };
+		8FB8DE3229124C4A0093AFB5 /* ElaineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElaineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB8DE3629124C4A0093AFB5 /* ElaineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineTests.swift; sourceTree = "<group>"; };
+		8FB8DE3C29124C4A0093AFB5 /* ElaineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElaineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB8DE4029124C4A0093AFB5 /* ElaineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineUITests.swift; sourceTree = "<group>"; };
+		8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FB8DE1929124C480093AFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE2F29124C4A0093AFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE3929124C4A0093AFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FB8DE1329124C480093AFB5 = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE1E29124C480093AFB5 /* Elaine */,
+				8FB8DE3529124C4A0093AFB5 /* ElaineTests */,
+				8FB8DE3F29124C4A0093AFB5 /* ElaineUITests */,
+				8FB8DE1D29124C480093AFB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB8DE1D29124C480093AFB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE1C29124C480093AFB5 /* Elaine.app */,
+				8FB8DE3229124C4A0093AFB5 /* ElaineTests.xctest */,
+				8FB8DE3C29124C4A0093AFB5 /* ElaineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FB8DE1E29124C480093AFB5 /* Elaine */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */,
+				8FB8DE2129124C480093AFB5 /* ContentView.swift */,
+				8FB8DE2329124C4A0093AFB5 /* Assets.xcassets */,
+				8FB8DE2829124C4A0093AFB5 /* Persistence.swift */,
+				8FB8DE2D29124C4A0093AFB5 /* Elaine.entitlements */,
+				8FB8DE2A29124C4A0093AFB5 /* Elaine.xcdatamodeld */,
+				8FB8DE2529124C4A0093AFB5 /* Preview Content */,
+			);
+			path = Elaine;
+			sourceTree = "<group>";
+		};
+		8FB8DE2529124C4A0093AFB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE2629124C4A0093AFB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FB8DE3529124C4A0093AFB5 /* ElaineTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE3629124C4A0093AFB5 /* ElaineTests.swift */,
+			);
+			path = ElaineTests;
+			sourceTree = "<group>";
+		};
+		8FB8DE3F29124C4A0093AFB5 /* ElaineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8DE4029124C4A0093AFB5 /* ElaineUITests.swift */,
+				8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */,
+			);
+			path = ElaineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FB8DE1B29124C480093AFB5 /* Elaine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB8DE4629124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "Elaine" */;
+			buildPhases = (
+				8FB8DE1829124C480093AFB5 /* Sources */,
+				8FB8DE1929124C480093AFB5 /* Frameworks */,
+				8FB8DE1A29124C480093AFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elaine;
+			productName = Elaine;
+			productReference = 8FB8DE1C29124C480093AFB5 /* Elaine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FB8DE3129124C4A0093AFB5 /* ElaineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB8DE4929124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "ElaineTests" */;
+			buildPhases = (
+				8FB8DE2E29124C4A0093AFB5 /* Sources */,
+				8FB8DE2F29124C4A0093AFB5 /* Frameworks */,
+				8FB8DE3029124C4A0093AFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FB8DE3429124C4A0093AFB5 /* PBXTargetDependency */,
+			);
+			name = ElaineTests;
+			productName = ElaineTests;
+			productReference = 8FB8DE3229124C4A0093AFB5 /* ElaineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FB8DE3B29124C4A0093AFB5 /* ElaineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB8DE4C29124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "ElaineUITests" */;
+			buildPhases = (
+				8FB8DE3829124C4A0093AFB5 /* Sources */,
+				8FB8DE3929124C4A0093AFB5 /* Frameworks */,
+				8FB8DE3A29124C4A0093AFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FB8DE3E29124C4A0093AFB5 /* PBXTargetDependency */,
+			);
+			name = ElaineUITests;
+			productName = ElaineUITests;
+			productReference = 8FB8DE3C29124C4A0093AFB5 /* ElaineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FB8DE1429124C480093AFB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8FB8DE1B29124C480093AFB5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8FB8DE3129124C4A0093AFB5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8FB8DE1B29124C480093AFB5;
+					};
+					8FB8DE3B29124C4A0093AFB5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8FB8DE1B29124C480093AFB5;
+					};
+				};
+			};
+			buildConfigurationList = 8FB8DE1729124C480093AFB5 /* Build configuration list for PBXProject "Elaine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FB8DE1329124C480093AFB5;
+			productRefGroup = 8FB8DE1D29124C480093AFB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FB8DE1B29124C480093AFB5 /* Elaine */,
+				8FB8DE3129124C4A0093AFB5 /* ElaineTests */,
+				8FB8DE3B29124C4A0093AFB5 /* ElaineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FB8DE1A29124C480093AFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB8DE2729124C4A0093AFB5 /* Preview Assets.xcassets in Resources */,
+				8FB8DE2429124C4A0093AFB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE3029124C4A0093AFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE3A29124C4A0093AFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FB8DE1829124C480093AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB8DE2929124C4A0093AFB5 /* Persistence.swift in Sources */,
+				8FB8DE2C29124C4A0093AFB5 /* Elaine.xcdatamodeld in Sources */,
+				8FB8DE2229124C480093AFB5 /* ContentView.swift in Sources */,
+				8FB8DE2029124C480093AFB5 /* ElaineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE2E29124C4A0093AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB8DE3729124C4A0093AFB5 /* ElaineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB8DE3829124C4A0093AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB8DE4329124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift in Sources */,
+				8FB8DE4129124C4A0093AFB5 /* ElaineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FB8DE3429124C4A0093AFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB8DE1B29124C480093AFB5 /* Elaine */;
+			targetProxy = 8FB8DE3329124C4A0093AFB5 /* PBXContainerItemProxy */;
+		};
+		8FB8DE3E29124C4A0093AFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FB8DE1B29124C480093AFB5 /* Elaine */;
+			targetProxy = 8FB8DE3D29124C4A0093AFB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8FB8DE4429124C4A0093AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FB8DE4529124C4A0093AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8FB8DE4729124C4A0093AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Elaine/Elaine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elaine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.Elaine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8FB8DE4829124C4A0093AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Elaine/Elaine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elaine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.Elaine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8FB8DE4A29124C4A0093AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.ElaineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elaine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elaine";
+			};
+			name = Debug;
+		};
+		8FB8DE4B29124C4A0093AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.ElaineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elaine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elaine";
+			};
+			name = Release;
+		};
+		8FB8DE4D29124C4A0093AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.ElaineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Elaine;
+			};
+			name = Debug;
+		};
+		8FB8DE4E29124C4A0093AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.famphony.ElaineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Elaine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB8DE1729124C480093AFB5 /* Build configuration list for PBXProject "Elaine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB8DE4429124C4A0093AFB5 /* Debug */,
+				8FB8DE4529124C4A0093AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB8DE4629124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "Elaine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB8DE4729124C4A0093AFB5 /* Debug */,
+				8FB8DE4829124C4A0093AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB8DE4929124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "ElaineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB8DE4A29124C4A0093AFB5 /* Debug */,
+				8FB8DE4B29124C4A0093AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB8DE4C29124C4A0093AFB5 /* Build configuration list for PBXNativeTarget "ElaineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB8DE4D29124C4A0093AFB5 /* Debug */,
+				8FB8DE4E29124C4A0093AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FB8DE2A29124C4A0093AFB5 /* Elaine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FB8DE2B29124C4A0093AFB5 /* Elaine.xcdatamodel */,
+			);
+			currentVersion = 8FB8DE2B29124C4A0093AFB5 /* Elaine.xcdatamodel */;
+			path = Elaine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FB8DE1429124C480093AFB5 /* Project object */;
+}
