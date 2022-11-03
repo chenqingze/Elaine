@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1BBA02291367FA00B04ED4 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BBA01291367FA00B04ED4 /* PDFKitView.swift */; };
+		8FA6E5422913D0C000AC2075 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6E5412913D0C000AC2075 /* SideBarView.swift */; };
 		8FB8DE2029124C480093AFB5 /* ElaineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */; };
 		8FB8DE2229124C480093AFB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2129124C480093AFB5 /* ContentView.swift */; };
 		8FB8DE2429124C4A0093AFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB8DE2329124C4A0093AFB5 /* Assets.xcassets */; };
@@ -16,6 +18,11 @@
 		8FB8DE3729124C4A0093AFB5 /* ElaineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE3629124C4A0093AFB5 /* ElaineTests.swift */; };
 		8FB8DE4129124C4A0093AFB5 /* ElaineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE4029124C4A0093AFB5 /* ElaineUITests.swift */; };
 		8FB8DE4329124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */; };
+		8FB8DE5029128C7C0093AFB5 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB8DE4F29128C7C0093AFB5 /* LibraryView.swift */; };
+		8FBE536A2913968B00362C6E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE53692913968B00362C6E /* MenuItem.swift */; };
+		8FBE536E29139BD300362C6E /* MOBIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE536D29139BD300362C6E /* MOBIView.swift */; };
+		8FBE537029139BEA00362C6E /* AZW3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE536F29139BEA00362C6E /* AZW3View.swift */; };
+		8FBE537229139BFB00362C6E /* EPUBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE537129139BFB00362C6E /* EPUBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1BBA01291367FA00B04ED4 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		8FA6E5412913D0C000AC2075 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		8FB8DE1C29124C480093AFB5 /* Elaine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elaine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineApp.swift; sourceTree = "<group>"; };
 		8FB8DE2129124C480093AFB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		8FB8DE3C29124C4A0093AFB5 /* ElaineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElaineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB8DE4029124C4A0093AFB5 /* ElaineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineUITests.swift; sourceTree = "<group>"; };
 		8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElaineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FB8DE4F29128C7C0093AFB5 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		8FBE53692913968B00362C6E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		8FBE536D29139BD300362C6E /* MOBIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBIView.swift; sourceTree = "<group>"; };
+		8FBE536F29139BEA00362C6E /* AZW3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZW3View.swift; sourceTree = "<group>"; };
+		8FBE537129139BFB00362C6E /* EPUBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPUBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,8 @@
 		8FB8DE1E29124C480093AFB5 /* Elaine */ = {
 			isa = PBXGroup;
 			children = (
+				8FBE536C29139B9600362C6E /* Models */,
+				8FBE536B29139B8B00362C6E /* Views */,
 				8FB8DE1F29124C480093AFB5 /* ElaineApp.swift */,
 				8FB8DE2129124C480093AFB5 /* ContentView.swift */,
 				8FB8DE2329124C4A0093AFB5 /* Assets.xcassets */,
@@ -133,6 +149,27 @@
 				8FB8DE4229124C4A0093AFB5 /* ElaineUITestsLaunchTests.swift */,
 			);
 			path = ElaineUITests;
+			sourceTree = "<group>";
+		};
+		8FBE536B29139B8B00362C6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FA6E5412913D0C000AC2075 /* SideBarView.swift */,
+				8F1BBA01291367FA00B04ED4 /* PDFKitView.swift */,
+				8FB8DE4F29128C7C0093AFB5 /* LibraryView.swift */,
+				8FBE536D29139BD300362C6E /* MOBIView.swift */,
+				8FBE536F29139BEA00362C6E /* AZW3View.swift */,
+				8FBE537129139BFB00362C6E /* EPUBView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FBE536C29139B9600362C6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE53692913968B00362C6E /* MenuItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1BBA02291367FA00B04ED4 /* PDFKitView.swift in Sources */,
+				8FB8DE5029128C7C0093AFB5 /* LibraryView.swift in Sources */,
+				8FBE537029139BEA00362C6E /* AZW3View.swift in Sources */,
 				8FB8DE2929124C4A0093AFB5 /* Persistence.swift in Sources */,
+				8FBE536E29139BD300362C6E /* MOBIView.swift in Sources */,
+				8FA6E5422913D0C000AC2075 /* SideBarView.swift in Sources */,
+				8FBE536A2913968B00362C6E /* MenuItem.swift in Sources */,
+				8FBE537229139BFB00362C6E /* EPUBView.swift in Sources */,
 				8FB8DE2C29124C4A0093AFB5 /* Elaine.xcdatamodeld in Sources */,
 				8FB8DE2229124C480093AFB5 /* ContentView.swift in Sources */,
 				8FB8DE2029124C480093AFB5 /* ElaineApp.swift in Sources */,
